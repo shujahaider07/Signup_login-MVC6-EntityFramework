@@ -1,0 +1,14 @@
+﻿
+@{
+    ViewBag.Title = "Index";
+}
+
+Html.Raw(ViewBag.alert)
+@Html.Raw(ViewData["Alert"])
+
+   
+ <h3 WELCOME  @Session["Name"]</h3>
+ @Html.ActionLink("Logout Page", "Logout", "Home")
+
+<h2>DASHBOARD</h2>
+
